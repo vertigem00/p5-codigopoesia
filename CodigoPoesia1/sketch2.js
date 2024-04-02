@@ -104,8 +104,8 @@ function setup() {
   
   // Create the font
   // printArray(PFont.list());
-  f = loadFont("Karma-Medium.otf");
-  textFont(f);
+ // f = loadFont("Karma-Medium.otf");
+ // textFont(f);
   // textAlign(CENTER, CENTER);
   
   fill('#000000');
