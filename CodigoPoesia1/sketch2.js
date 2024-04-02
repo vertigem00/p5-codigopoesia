@@ -114,10 +114,15 @@ function setup() {
 function draw() {
 }
 function mousePressed() {
-  let random = int(random(1,6));
-  new_sentence(random);
+  let random_number = int(random(1,6));
+  new_sentence(random_number);
 }
+
 function keyPressed() {
   let random_number = int(random(1000000));
  // save(random_number + ".png");
  save("verso" + Date.now() + ".png");}
+
+ function iniciarSketch() {
+  setup(); // Chama a função setup() do p5.js para iniciar o sketch
+}
